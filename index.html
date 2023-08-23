@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title> Temp Numbers</title>
+</head>
+
+<body>
+    <header id="navbar">
+        <nav class="navbar-container container">
+            <a href="/" class="home-link">
+                Temp Numbers For All
+            </a>
+
+            <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                <ul class="navbar-links">
+                    <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="privacy.html">Privacy</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br> </br>
+    <br></br>
+
+    <main class="container mt-4">
+
+        <div class="country-card" id="country1">
+            <img src="images/india.png" alt="Country 1" class="img-fluid">
+            <h2>India</h2>
+            <p>Phone: +91-7678999871</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage('country1')" data-country-id="country1">Read SMS</button>
+
+        </div>
+
+
+        <div class="country-card" id="country2">
+            <img src="images/usP.png" alt="Country 2">
+            <h2>United States</h2>
+            <p>Phone: +1 (515) 516-0624</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage2('country2')" data-country-id="country2">Read SMS</button>
+        </div>
+
+        <div class="country-card" id="country3">
+            <img src="images/Uae.png" alt="Country 3">
+            <h2>Uae</h2>
+            <p>Phone:+971-585-553-689</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage3('country3')" data-country-id="country3">Read SMS</button>
+        </div>
+
+        <div class="country-card" id="country4">
+            <img src="images/france.jpeg " alt="Country 4">
+            <h2>France</h2>
+            <p>Phone: +33644629051
+            </p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage4('country4')" data-country-id="country4">Read SMS</button>
+        </div>
+
+
+        <div class="country-card" id="country5">
+            <img src="images/c.png" alt="Country 5">
+            <h2>Canada</h2>
+            <p>Phone: +1 226-444-1022</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage5('country5')" data-country-id="country5">Read SMS</button>
+        </div>
+
+        <div class="country-card" id="country6">
+            <img src="images/usP.png" alt="Country 6">
+            <h2>United States</h2>
+            <p>Phone: +1 (515) 516-0624</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage2('country2')" data-country-id="country6">Read SMS</button>
+        </div>
+
+        <div class="country-card" id="country7">
+            <img src="images/ro.png" alt="Country 7">
+            <h2>Romania</h2>
+            <p>Phone: +407318835094</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage7('country7')" data-country-id="country7">Read SMS</button>
+            <div id="detailsSection">
+                <!-- Details content will be dynamically updated here -->
+            </div>
+        </div>
+
+        <div class="country-card" id="country8">
+            <img src="images/ph.png" alt="Country 8">
+            <h2>Philippines</h2>
+            <p>Phone: +639669917700</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage8('country8')" data-country-id="country8">Read SMS</button>
+        </div>
+
+        <div class="country-card" id="country9">
+            <img src="images/spa.png" alt="Country 9">
+            <h2>Spain</h2>
+            <p>Phone: (+34) 631-281-895</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage9('country9')" data-country-id="country9">Details</button>
+        </div>
+
+        <div class="country-card" id="country10">
+            <img src="images/swe.png" alt="Country 10">
+            <h2>Swedish</h2>
+            <p>Phone: +46769436266</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage10('country10')" data-country-id="country10">Details</button>
+        </div>
+
+        <div class="country-card" id="country11">
+            <img src="images/est.png" alt="Country 11">
+            <h2>Estonia</h2>
+            <p>Phone: (+372) 5363-1003</p>
+            <button class="btn btn-primary btn-click-effect" onclick="navigateToCountryPage11('country11')" data-country-id="country11">Details</button>
+        </div>
+
+        <!-- Add more country cards here -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Temp Numbers. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>
